@@ -7,6 +7,7 @@ What you'll learn:
 2. Circuitpython
 3. Sensors
 4. Motor
+5. Breadboarding!
 
 ## Parts
 
