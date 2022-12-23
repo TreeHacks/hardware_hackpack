@@ -35,6 +35,7 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 5) Add file to pico: Drag and drop the file into the RPI-RP2 folder. This will cause the pico to disconnect which is what is expected to happen. Then, unplug the pico from the mac. This process of setup is only required once for setting up micropython, and you do not need to do this everytime you connect the pico to your computer. 
 
+https://user-images.githubusercontent.com/93958307/209323934-46812565-cee0-4ee0-b521-3fd161943c3f.mov
 
 ## Micropython on the Pico
 
