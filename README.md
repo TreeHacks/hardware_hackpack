@@ -34,7 +34,7 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 ## Micropython on the Pico
 
-1) Connect the pico: Connect the pico to your computer by simply plugging it in. You do not need to press the bootsel button and no folder will be popping up this time around. 
+1) Connect the pico: Connect the pico to your computer by simply plugging it in. Do not press the bootsel button. Furthermore, no folder will be appearing this time. 
 
 2) Connect to Thonny: Next, open up the thonny editor we downloaded in step 1 of "Setup". 
 
@@ -48,8 +48,7 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 go over the pins on the board
 
-## RFID Door Unlocker
-
+## Example: color sensing
 
 
 ## Conclusion
