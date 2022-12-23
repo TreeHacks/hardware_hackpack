@@ -1,20 +1,15 @@
 # hardware_hackpack
 
-The project- RFID based door opener 
+This is an overview of how to use a microcontroller- specifically the Raspberry Pi Pico! We nail down some foundations here and will have more hardware-related even ... We hope the skills you learn from this hackpack help you get a footing in hardware hacks and think in hardware :))
 
-What you'll learn:
-1. Microcontroller
-2. Micropython
-3. Sensors
-4. Motor
-5. Breadboarding!
-
-## Parts
-
+#### Parts:
 1. Raspberry Pi Pico
-2. Breadboard
-3. Micro USB cable
-4. Your laptop!
+2. Micro USB cable 
+3. Your computer!
+4. TCS3200 Color Sensor (optional)
+5. Jumper wires (optional)
+6. Breadboard (optional)
+7. i2c display (optional)
 
 ## Setup
 
