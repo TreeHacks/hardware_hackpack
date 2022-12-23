@@ -11,7 +11,7 @@ This is an overview of how to use a microcontroller- specifically the Raspberry 
 6. Breadboard (optional)
 7. i2c display (optional)
 
-## Setup
+## Setup ⚙️
 
 1) Download Thonny: From https://thonny.org/, click on the download button for your requisite OS that is on the top right corner of the screen. 
 
@@ -32,7 +32,7 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 ![gif_pico](https://user-images.githubusercontent.com/93958307/209324715-f7351ff9-e491-4e9c-a86c-b4222e115b00.gif)
 
-## Micropython on the Pico
+## Micropython on the Pico 
 
 1) Connect the pico: Connect the pico to your computer by simply plugging it in. Do not press the bootsel button. Furthermore, no folder will be appearing this time. 
 
