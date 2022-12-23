@@ -20,15 +20,14 @@ What you'll learn:
 
 1) Download Thonny: From https://thonny.org/, click on the download button for your requisite OS that is on the top right corner of the screen. 
 
-2) Connect the pico to your computer: You will need a micro-usb wire that connects the pico to your computer. While connecting it, you need to press down on the white bootsel button on the pico and then release it. A folder should pop up titled RPI-RP2- this means that the pico has successfully been flashed to your computer. 
+2) Connect the pico to your computer: You will need a micro-usb wire that connects the pico to your computer. While connecting it, you need to press down on the white bootsel button on the pico and then release it. 
 
-<img width="235" alt="Screenshot 2022-12-23 at 3 49 10 PM" src="https://user-images.githubusercontent.com/93958307/209319654-441f5ad2-42db-4a6b-a21e-8771f0b6b19a.png">
 
-3) Download uf2 file: Open this RPI-RP2 folder and click on the INDEX.HTM file within it which will redirect you to a webpage.
 
-<img width="950" alt="Screenshot 2022-12-23 at 3 55 32 PM" src="https://user-images.githubusercontent.com/93958307/209319708-a00e59cc-9259-4dcf-abfb-333d1c861ca6.png">
+A folder should pop up titled RPI-RP2- this means that the pico has successfully been flashed to your computer. 
+<img width="950" alt="Screenshot 2022-12-23 at 3 55 32 PM" src="https://user-images.githubusercontent.com/93958307/209323810-9fbea274-6d98-4ac1-99fc-a80f2b072a6d.png">
 
-Scroll down on this "Raspberry Pi Documentation" page and under the "Microcontrollers" tab you will see "Micropython". Click on that. 
+3) Download uf2 file: In this RPI-RP2 folder, click on the INDEX.HTM file which will redirect you to a webpage titled "Raspberry Pi Documentation". Scroll down on this page and under the "Microcontrollers" tab you will see "Micropython". Click on that. 
 <img width="1238" alt="Screenshot 2022-12-23 at 3 58 57 PM" src="https://user-images.githubusercontent.com/93958307/209320266-1950d801-a727-43f0-8ea8-959ff351c047.png">
 
 Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython" section under which you will see instructions to download micropython for different boards. Click on the "Raspberry Pi Pico" option and a uf2 file should begin downloading (file named something like rp2-pico-......uf2).
