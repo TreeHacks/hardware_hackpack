@@ -17,7 +17,7 @@ What you'll learn:
 
 1) Download Thonny: From https://thonny.org/
 
-![Untitled drawing (1)](https://user-images.githubusercontent.com/93958307/209287767-6d62d700-779e-456b-9f47-caf0f4b8949f.png)
+![Untitled drawing (1)](https://user-images.githubusercontent.com/93958307/209288582-58247162-76a7-4cb7-89e8-a6858e799133.png)
 
 2) Connect the pico to your computer: 
 
