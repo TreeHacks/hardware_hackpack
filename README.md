@@ -3,7 +3,7 @@
 This is an overview of how to use a microcontroller- specifically the Raspberry Pi Pico! We nail down some foundations here and will have more hardware-related even ... We hope the skills you learn from this hackpack help you get a footing in hardware hacks and think in hardware :))
 
 #### Parts:
-1. Raspberry Pi Pico
+1. Raspberry Pi Pico 
 2. Micro USB cable 
 3. Your computer!
 4. TCS3200 Color Sensor (optional)
