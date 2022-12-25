@@ -69,11 +69,13 @@ https://user-images.githubusercontent.com/93958307/209356017-308ecaa8-3088-4eb6-
 
 Now, you can experiment with different micropython programs and make your pico do cool stuff. In the next section, we go over how to further connect your pico to other objects which will allow for much more scope with what you can build! 
 
-## The Pico ⚡ 
+### The Pico ⚡ 
 
-go over the pins on the board
+The pico is a microcontroller much like the arduino or adafruit's infamous m4 feather express. It has digital input and output pins (GPIO) and analog ones (ADC). These pins are what's used when we connect the pico to other objects such as sensors, motors, LEDs, etc. You can read more about the pico in its datasheet: https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
 
-## Example: Color Sensing
+<img width="795" alt="Screenshot 2022-12-25 at 12 36 18 PM" src="https://user-images.githubusercontent.com/93958307/209459854-3e409013-b438-4ffc-b3a4-9d9e7befde19.png">
+
+## Examples: Color Sensing
 
 ## Conclusion
 
