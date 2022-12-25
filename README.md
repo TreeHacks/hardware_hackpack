@@ -73,8 +73,7 @@ Now, you can experiment with different micropython programs and make your pico d
 
 go over the pins on the board
 
-## Example: color sensing 💙💚💜❤️🧡
-
+## Example: Color Sensing
 
 ## Conclusion
 
