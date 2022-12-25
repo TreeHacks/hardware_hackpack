@@ -49,7 +49,7 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 8) Blink.py: Now, we run an actual program on our Pico. Open up a new file in thonny and copy-paste the contents of blink.py that is available in this repository. Click on "Save" after doing so, where you will be prompted to choose where- choose "This Computer". Save your file as "blink.py". 
 
-https://user-images.githubusercontent.com/93958307/209355972-e7d7f2fd-0248-40ea-a9a7-c6610dcc0753.mov
+![thonnyblink](https://user-images.githubusercontent.com/93958307/209460037-6b61313e-6b9e-46f7-a0f9-b63856220c82.gif)
 
 10) Run it: Then, click on the run button in the top tab of the Thonny editor. To stop running the program, click "stop" button that is in the same tab.
 
