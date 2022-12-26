@@ -57,6 +57,8 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 This is the result of blink.py- the onboard LED of your pico blinking periodically! 
 
+![picoblink](https://user-images.githubusercontent.com/93958307/209513748-d9da48de-b6f2-4129-8602-bc48b2bc1d44.gif)
+
 9) Automatically Run Code: If you wish to run this code whithout having to click the "run" button and using Thonny, you can merely rename the file to be main.py and save it to "Raspberry Pi Pico" instead of "This Computer". The Pico is always on the lookout for the main.py file and automatically runs it. Hence, whenever the pico would be connected to a power source, it would automatically run the code in its main.py.
 
 https://user-images.githubusercontent.com/93958307/209356017-308ecaa8-3088-4eb6-9975-39af675000bc.mov
