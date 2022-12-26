@@ -77,9 +77,9 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 <img width="795" alt="Screenshot 2022-12-25 at 12 36 18 PM" src="https://user-images.githubusercontent.com/93958307/209459854-3e409013-b438-4ffc-b3a4-9d9e7befde19.png">
 
-## Example: Color Sensing
+## Example: Temperature Sensor + Servo Motor
 
-## Example: Servo Motor
+We're going to 
 
 ## Conclusion
 
