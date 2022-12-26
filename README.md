@@ -79,7 +79,14 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 ## Example: Temperature Sensor + Servo Motor
 
-We're going to 
+We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico. This may be a bit of an arbitrary combination... 
+
+Connections:
+
+Code in github
+
+Here's a demo of what it does! 
+
 
 ## Conclusion
 
