@@ -1,6 +1,6 @@
 # hardware_hackpack
 
-This is an overview of how to use a microcontroller- specifically the Raspberry Pi Pico! We nail down some foundations here and will have more hardware-related even ... We hope the skills you learn from this hackpack help you get a footing in hardware hacks and think in hardware :))
+This is an overview of how to use a microcontroller- specifically the Raspberry Pi Pico. We nail down some foundations here and will have more hardware-related events at the hackathon. We hope the skills you learn from this hackpack help you get a footing in hardware hacks and come up with creative ideas of your own! 
 
 #### Parts:
 1. Raspberry Pi Pico 
@@ -17,7 +17,7 @@ This is an overview of how to use a microcontroller- specifically the Raspberry 
 
 2) Connect the pico to your computer: You will need a micro-usb wire that connects the pico to your computer. While connecting it, you need to press down on the white bootsel button on the pico and then release it. 
 
-
+![picobootsel](https://user-images.githubusercontent.com/93958307/209513036-7c1e759a-7dba-4e99-8e2a-449fc67138fd.gif)
 
 A folder should pop up titled RPI-RP2 which means that the pico has successfully been flashed to your computer. 
 
