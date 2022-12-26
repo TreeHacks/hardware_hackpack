@@ -83,6 +83,12 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 ## Conclusion
 
+Arduino- 
+
+Adafruit M4- 
+
+Raspberry Pi Pico also supports arduino software. Circuitpython. 
+
 # About HackPacks 🌲
 HackPacks are built by the TreeHacks team to help hackers build great projects at our hackathon that happens every February at Stanford. We believe that everyone of every skill level can learn to make awesome things, and this is one way we help facilitate hacker culture. We open source our hackpacks (along with our internal tech) so everyone can learn from and use them! Feel free to use these at your own hackathons, workshops, and anything else that promotes building :)
 
