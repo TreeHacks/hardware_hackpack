@@ -6,10 +6,9 @@ This is an overview of how to use a microcontroller- specifically the Raspberry 
 1. Raspberry Pi Pico 
 2. Micro USB cable 
 3. Your computer!
-4. TCS3200 Color Sensor (optional)
+4. Servo Motor (optional)
 5. Jumper wires (optional)
 6. Breadboard (optional)
-7. i2c display (optional)
 
 # Setup ⚙️
 
