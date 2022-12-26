@@ -11,7 +11,7 @@ This is an overview of how to use a microcontroller- specifically the Raspberry 
 6. Breadboard (optional)
 7. i2c display (optional)
 
-## Setup ⚙️
+# Setup ⚙️
 
 1) Download Thonny: From https://thonny.org/, click on the download button for your requisite OS that is on the top right corner of the screen. 
 
@@ -35,7 +35,7 @@ Now, on the page about Micropython scroll down to the "Drag-and-Drop MicroPython
 
 ![gif_pico](https://user-images.githubusercontent.com/93958307/209324715-f7351ff9-e491-4e9c-a86c-b4222e115b00.gif)
 
-## Micropython on the Pico 🖥️ 
+# Micropython on the Pico 🖥️ 
 
 1) Connect the pico: Connect the pico to your computer by simply plugging it in. Do not press the bootsel button. Furthermore, no folder will be appearing this time. 
 
@@ -77,7 +77,7 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 <img width="795" alt="Screenshot 2022-12-25 at 12 36 18 PM" src="https://user-images.githubusercontent.com/93958307/209459854-3e409013-b438-4ffc-b3a4-9d9e7befde19.png">
 
-## Example: Temperature Sensor + Servo Motor
+# Example: Temperature Sensor + Servo Motor
 
 We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico. This may be a bit of an arbitrary combination... 
 
@@ -88,7 +88,7 @@ Code in github
 Here's a demo of what it does! 
 
 
-## Conclusion
+# Conclusion
 
 Arduino- 
 
