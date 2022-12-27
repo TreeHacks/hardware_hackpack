@@ -1,6 +1,6 @@
 # hardware_hackpack
 
-This is an overview of how to use a microcontroller- specifically the Raspberry Pi Pico. We nail down some foundations here and will have more hardware-related events at the hackathon. We hope the skills you learn from this hackpack help you get a footing in hardware hacks and come up with creative ideas of your own! 
+This is is a beginners tutorial of how to use a microcontroller- specifically the Raspberry Pi Pico. It's made to be accessible for anyone, no matter your experience level! We nail down some foundations here and will have more hardware-related events at the hackathon. We hope the skills you learn from this hackpack help you get a footing in hardware hacks and come up with creative ideas of your own! 
 
 #### Parts:
 1. Raspberry Pi Pico 
@@ -78,20 +78,24 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 # Example: Temperature Sensor + Servo Motor
 
-We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico (//may also wanna add display of temperature)
+We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico (//may also wanna add display of temperature, may change to IR sensor)
 
 #### Connections: 
-Our on-board temperature sensor is connected to pin ADC4 (you can read more about the sensor here: https://electrocredible.com/raspberry-pi-pico-temperature-sensor-tutorial/). Hence, we do not need any external connections to the pico which is really convenient!
+Our on-board temperature sensor is connected to pin ADC4 (you can read more about the sensor here: https://electrocredible.com/raspberry-pi-pico-temperature-sensor-tutorial/). Hence, we do not need any external connections to the pico which is really convenient! If you've never used a breadboard before and want to know more about it, you can check out ... , (though this isn't required)   
 To connect the servo, follow the image below:
 
-If you've never used a breadboard before, ... 
+[picoservo.pdf](https://github.com/guananya/hardware_hackpack/files/10306025/picoservo.pdf)
+
+The process should look something like this:
+
+https://user-images.githubusercontent.com/93958307/209615678-ab9aa838-0db8-4334-8671-44983f771de6.mov
 
 #### Code
 Follow the code in the tempsense.py file. There may be some alien looking calculations going on with terms like "conversion_factor", but you don't need to worry about them as they are just used to turn the analog input into a celsius reading. If you're curios about how that works, you can read more online. 
-... 
+
+Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
 
 #### Demo
-
 
 
 # Conclusion
