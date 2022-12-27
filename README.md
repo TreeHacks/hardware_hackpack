@@ -78,13 +78,20 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 # Example: Temperature Sensor + Servo Motor
 
-We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico. This may be a bit of an arbitrary combination... 
+We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico (//may also wanna add display of temperature)
 
-Connections:
+#### Connections: 
+Our on-board temperature sensor is connected to pin ADC4 (you can read more about the sensor here: https://electrocredible.com/raspberry-pi-pico-temperature-sensor-tutorial/). Hence, we do not need any external connections to the pico which is really convenient!
+To connect the servo, follow the image below:
 
-Code in github
+If you've never used a breadboard before, ... 
 
-Here's a demo of what it does! 
+#### Code
+Follow the code in the tempsense.py file. There may be some alien looking calculations going on with terms like "conversion_factor", but you don't need to worry about them as they are just used to turn the analog input into a celsius reading. If you're curios about how that works, you can read more online. 
+... 
+
+#### Demo
+
 
 
 # Conclusion
