@@ -76,7 +76,7 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 <img width="795" alt="Screenshot 2022-12-25 at 12 36 18 PM" src="https://user-images.githubusercontent.com/93958307/209459854-3e409013-b438-4ffc-b3a4-9d9e7befde19.png">
 
-# Example: Temperature Sensor + Servo Motor
+# Example: IR Sensor + Servo Motor
 
 We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico (//may also wanna add display of temperature, may change to IR sensor)
 
@@ -85,6 +85,11 @@ Our on-board temperature sensor is connected to pin ADC4 (you can read more abou
 To connect the servo, follow the image below:
 
 ![picoservo](https://user-images.githubusercontent.com/93958307/209617753-6e762a2f-15ff-4fe4-b924-08c4fc5ca186.png)
+
+The pins we have connected to are: 
+  Servo's red wire (VCC) to pico's 3V3(OUT) 
+  Servo's black wire (GND) to pico's GND
+  Servo's orange wire (OUT) to pico's GPIO-0
 
 The process should look something like this:
 
