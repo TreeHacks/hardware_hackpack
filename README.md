@@ -78,7 +78,27 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 # Example: IR Sensor + Servo Motor
 
-We're going to demonstrate how to use the on-board temperature sensor as well as drive a servo motor with the pico (//may also wanna add display of temperature, may change to IR sensor)
+We're going to demonstrate how to use an IR sensor in conjunction with a servo motor. Our final result is going to be a servo motor that starts when an object gets close to the sensor!
+
+## Sensor
+
+#### Connections:
+
+If you've never used a breadboard before and want to know more about it, you can check out ... , (though this isn't required)   
+To connect the ir sensor, follow the image below:
+
+The pins we have connected to are:  ////change
+  Servo's red wire (VCC) to pico's 3V3(OUT) 
+  Servo's black wire (GND) to pico's GND
+  Servo's orange wire (OUT) to pico's GPIO-0
+
+The process should look something like this:
+
+#### Code
+
+#### Demo
+
+## Adding the servo
 
 #### Connections: 
 If you've never used a breadboard before and want to know more about it, you can check out ... , (though this isn't required)   
@@ -96,12 +116,9 @@ The process should look something like this:
 https://user-images.githubusercontent.com/93958307/209615678-ab9aa838-0db8-4334-8671-44983f771de6.mov
 
 #### Code
-Follow the code in the tempsense.py file. There may be some alien looking calculations going on with terms like "conversion_factor", but you don't need to worry about them as they are just used to turn the analog input into a celsius reading. If you're curios about how that works, you can read more online. 
-
-Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
+Follow the code in the irmotor.py file. Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
 
 #### Demo
-
 
 # Conclusion
 
