@@ -87,6 +87,8 @@ We're going to demonstrate how to use an IR sensor in conjunction with a servo m
 If you've never used a breadboard before and want to know more about it, you can check out ... , (though this isn't required)   
 To connect the ir sensor, follow the image below:
 
+![irpico](https://user-images.githubusercontent.com/93958307/210133069-0b2d2199-9dbe-45cd-a366-eba8e0e84daa.png)
+
 The pins we have connected to are:  ////change
   Servo's red wire (VCC) to pico's 3V3(OUT) 
   Servo's black wire (GND) to pico's GND
