@@ -109,9 +109,9 @@ To connect the servo, follow the image below:
 ![picoservo](https://user-images.githubusercontent.com/93958307/209617753-6e762a2f-15ff-4fe4-b924-08c4fc5ca186.png)
 
 The pins we have connected to are: 
-  Servo's red wire (VCC) to pico's 3V3(OUT) 
-  Servo's black wire (GND) to pico's GND
-  Servo's orange wire (OUT) to pico's GPIO-0
+  Sensor's red wire (VCC) to pico's 3V3(OUT) 
+  Sensor's black wire (GND) to pico's GND
+  Sensor's orange wire (OUT) to pico's GPIO-21
 
 The process should look something like this:
 
