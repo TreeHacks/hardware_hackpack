@@ -80,27 +80,7 @@ The pico is a microcontroller much like the arduino or adafruit's infamous m4 fe
 
 We're going to demonstrate how to use an IR sensor in conjunction with a servo motor. Our final result is going to be a servo motor that starts when an object gets close to the sensor!
 
-## Sensor
-
-#### Connections:
-
-If you've never used a breadboard before and want to know more about it, you can check out ... , (though this isn't required)   
-To connect the ir sensor, follow the image below:
-
-![irpico](https://user-images.githubusercontent.com/93958307/210133069-0b2d2199-9dbe-45cd-a366-eba8e0e84daa.png)
-
-The pins we have connected to are:  ////change
-  Servo's red wire (VCC) to pico's 3V3(OUT) 
-  Servo's black wire (GND) to pico's GND
-  Servo's orange wire (OUT) to pico's GPIO-0
-
-The process should look something like this:
-
-#### Code
-
-#### Demo
-
-## Adding the servo
+## Servo
 
 #### Connections: 
 If you've never used a breadboard before and want to know more about it, you can check out ... , (though this isn't required)   
@@ -109,9 +89,9 @@ To connect the servo, follow the image below:
 ![picoservo](https://user-images.githubusercontent.com/93958307/209617753-6e762a2f-15ff-4fe4-b924-08c4fc5ca186.png)
 
 The pins we have connected to are: 
-  Sensor's red wire (VCC) to pico's 3V3(OUT) 
-  Sensor's black wire (GND) to pico's GND
-  Sensor's orange wire (OUT) to pico's GPIO-21
+  Servo's red wire (VCC) to pico's 3V3(OUT) 
+  Servo's black wire (GND) to pico's GND
+  Servo's orange wire (OUT) to pico's GPIO-0
 
 The process should look something like this:
 
@@ -119,6 +99,33 @@ https://user-images.githubusercontent.com/93958307/209615678-ab9aa838-0db8-4334-
 
 #### Code
 Follow the code in the irmotor.py file. Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
+
+#### Demo
+
+## Adding the Sensor
+
+#### Connections:
+
+To connect the ir sensor, follow the image below:
+
+![irpico](https://user-images.githubusercontent.com/93958307/210133069-0b2d2199-9dbe-45cd-a366-eba8e0e84daa.png)
+
+The pins we have connected to are:  ////change
+  Sensor's red wire (VCC) to pico's 3V3(OUT) 
+  Sensor's black wire (GND) to pico's GND
+  Sensor's orange wire (OUT) to pico's GPIO-21
+
+As you can see, there are two wires that need to be connected to the pico's 3V3(OUT) pin- the servo's and the server's. For this, we connect the 3v3 pin to one of the rows in the smaller 2-row sides of the breadboard, and connect two wires in the same line! It should look something like this:
+
+
+
+The final board should look something like this: 
+
+
+
+#### Code
+
+Uncomment the rest of the code in the irservo.py and run it! 
 
 #### Demo
 
