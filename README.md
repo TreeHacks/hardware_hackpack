@@ -102,7 +102,7 @@ The process should look something like this:
 https://user-images.githubusercontent.com/93958307/209615678-ab9aa838-0db8-4334-8671-44983f771de6.mov
 
 #### Code
-Follow the code in the irmotor.py file (leave the comments for now). Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
+Follow the code in the servomotor.py file. Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
 
 #### Demo
 
@@ -114,7 +114,7 @@ To connect the ir sensor, follow the image below:
 
 ![irpico](https://user-images.githubusercontent.com/93958307/210133069-0b2d2199-9dbe-45cd-a366-eba8e0e84daa.png)
 
-The pins we have connected to are:  ////change
+The pins we have connected to are:
   Sensor's red wire (VCC) to pico's 3V3(OUT) 
   Sensor's black wire (GND) to pico's GND
   Sensor's orange wire (OUT) to pico's GPIO-21
@@ -129,7 +129,7 @@ The final board should look something like this:
 
 #### Code
 
-Uncomment the rest of the code in the irmotor.py and run it! 
+Follow the code in the irservo.py file. Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
 
 #### Demo
 
