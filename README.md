@@ -3,12 +3,16 @@
 This is is a beginners tutorial of how to use a microcontroller- specifically the Raspberry Pi Pico. It's made to be accessible for anyone, no matter your experience level! We nail down some foundations here and will have more hardware-related events at the hackathon. We hope the skills you learn from this hackpack help you get a footing in hardware hacks and come up with creative ideas of your own! 
 
 #### Parts:
+Basic setup: 
 1. Raspberry Pi Pico 
 2. Micro USB cable 
 3. Your computer!
-4. Servo Motor (optional)
-5. Jumper wires (optional)
-6. Breadboard (optional)
+
+To make a pico project:
+1. Servo Motor 
+2. Jumper wires (male to female and male to male) 
+3. IR sensor 
+4. Breadboard 
 
 # Setup ⚙️
 
@@ -98,7 +102,7 @@ The process should look something like this:
 https://user-images.githubusercontent.com/93958307/209615678-ab9aa838-0db8-4334-8671-44983f771de6.mov
 
 #### Code
-Follow the code in the irmotor.py file. Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
+Follow the code in the irmotor.py file (leave the comments for now). Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
 
 #### Demo
 
@@ -115,9 +119,9 @@ The pins we have connected to are:  ////change
   Sensor's black wire (GND) to pico's GND
   Sensor's orange wire (OUT) to pico's GPIO-21
 
-As you can see, there are two wires that need to be connected to the pico's 3V3(OUT) pin- the servo's and the server's. For this, we connect the 3v3 pin to one of the rows in the smaller 2-row sides of the breadboard, and connect two wires in the same line! It should look something like this:
+As you can see, there are two wires that need to be connected to the pico's 3V3(OUT) pin- the servo's and the server's. For this, we connect the 3v3 pin to one of the rows in the smaller 2-row sides of the breadboard, and connect two wires in the same line! The process should look something like this:
 
-
+https://user-images.githubusercontent.com/93958307/211267151-88f961cc-dde9-40b5-8d4e-b5c39ba7e7b7.MOV
 
 The final board should look something like this: 
 
@@ -125,7 +129,7 @@ The final board should look something like this:
 
 #### Code
 
-Uncomment the rest of the code in the irservo.py and run it! 
+Uncomment the rest of the code in the irmotor.py and run it! 
 
 #### Demo
 
