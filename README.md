@@ -66,9 +66,8 @@ This is the result of blink.py- the onboard LED of your pico blinking periodical
 
 https://user-images.githubusercontent.com/93958307/209356017-308ecaa8-3088-4eb6-9975-39af675000bc.mov
 
+So now whenever I connect my pico to the computer, it will automatically run main.py and the led on the pico will start blinking. 
 //video showing me connecting and disconnecting it
-
-
 
 #### Congrats on running a Micropython program on your Pico!! 🎉
 
@@ -93,9 +92,9 @@ To connect the servo, follow the image below:
 ![picoservo](https://user-images.githubusercontent.com/93958307/209617753-6e762a2f-15ff-4fe4-b924-08c4fc5ca186.png)
 
 The pins we have connected to are: 
-  Servo's red wire (VCC) to pico's 3V3(OUT) 
-  Servo's black wire (GND) to pico's GND
-  Servo's orange wire (OUT) to pico's GPIO-0
+1. Servo's red wire (VCC) to pico's 3V3(OUT) 
+2. Servo's black wire (GND) to pico's GND
+3. Servo's orange wire (OUT) to pico's GPIO-0
 
 The process should look something like this:
 
@@ -106,6 +105,7 @@ Follow the code in the servomotor.py file. Run the code either by saving it as m
 
 #### Demo
 
+
 ## Adding the Sensor
 
 #### Connections:
@@ -115,23 +115,26 @@ To connect the ir sensor, follow the image below:
 ![irpico](https://user-images.githubusercontent.com/93958307/210133069-0b2d2199-9dbe-45cd-a366-eba8e0e84daa.png)
 
 The pins we have connected to are:
-  Sensor's red wire (VCC) to pico's 3V3(OUT) 
-  Sensor's black wire (GND) to pico's GND
-  Sensor's orange wire (OUT) to pico's GPIO-21
+1. Sensor's red wire (VCC) to pico's 3V3(OUT) 
+2. Sensor's black wire (GND) to pico's GND
+3. Sensor's orange wire (OUT) to pico's GPIO-21
 
 As you can see, there are two wires that need to be connected to the pico's 3V3(OUT) pin- the servo's and the server's. For this, we connect the 3v3 pin to one of the rows in the smaller 2-row sides of the breadboard, and connect two wires in the same line! The process should look something like this:
 
 https://user-images.githubusercontent.com/93958307/211267151-88f961cc-dde9-40b5-8d4e-b5c39ba7e7b7.MOV
 
-The final board should look something like this: 
+The final connections should look something like this: 
 
-
+![IMG_1973](https://user-images.githubusercontent.com/93958307/211283552-282e4a42-9abf-4400-8ec0-05bd0ca40e46.JPG)
 
 #### Code
 
 Follow the code in the irservo.py file. Run the code either by saving it as main.py on the board or by running it through Thonny as we had done earlier with the 'blink' example. 
 
 #### Demo
+Note that you'll see two red lights on your IR sensor when there is an interference, and only one when there isn't! 
+
+![irdemo](https://user-images.githubusercontent.com/93958307/211282114-2b6d7d58-a09e-4e67-bc30-4559054d3ae5.gif)
 
 # Conclusion
 
